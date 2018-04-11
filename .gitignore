@@ -4,3 +4,9 @@ bin\*
 debug\*
 release\*
 *csproj.user*
+.vs/*
+Codius.Web/bin/*
+Codius.Web/v15/*
+Codius.Web/v15/
+*.configg
+storage.*

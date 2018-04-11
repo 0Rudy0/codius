@@ -4,9 +4,13 @@ bin\*
 debug\*
 release\*
 *csproj.user*
+*.csproj
 .vs/*
 Codius.Web/bin/*
+Codius.Web/obj/*
+Codius.Web/obj/Debug/*
 Codius.Web/v15/*
 Codius.Web/v15/
-*.configg
+*.config
+*.cache
 storage.*

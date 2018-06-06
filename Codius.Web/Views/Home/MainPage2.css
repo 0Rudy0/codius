@@ -1,0 +1,153 @@
+﻿#logo {
+            background-color: transparent;
+            width: 420px;
+            height: 430px;
+        }
+
+        .logoPolygon {
+            fill: white;
+            stroke: blue;
+            stroke-width: 0;
+        }
+
+        #menu {
+            width: 50px;
+            height: 50px;
+            /*border: 1px solid white;*/
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            cursor: pointer;
+        }
+
+            #menu span {
+                display: none;
+            }
+
+            #menu:hover:not(.active) svg:nth-child(1) {
+                /*animation: logoFirstLinePeek 0.2s forwards;*/
+            }
+
+            #menu.active span {
+                display: block;
+            }
+
+            #menu.active svg polygon {
+                /*fill: transparent;
+                stroke: white;
+                stroke-width: 1px;*/
+            }
+
+            #menu.active svg:nth-child(1) {
+                /*left: 50px !important;*/
+                /*width: 100px !important;*/
+                animation: logoLineMove1 0.5s forwards;
+            }
+
+            #menu.active svg:nth-child(3) {
+                /*left: 50px !important;*/
+                /*width: 100px !important;*/
+                animation: logoLineMove2 0.5s forwards;
+                animation-delay: 0.1s;
+            }
+
+            #menu.active svg:nth-child(5) {
+                /*left: 50px !important;*/
+                /*width: 100px !important;*/
+                animation: logoLineMove3 0.5s forwards;
+                animation-delay: 0.2s;
+            }
+
+        #logoAndNameHolder {
+            display: none;
+        }
+
+        @keyframes logoFirstLinePeek {
+            0% {
+                transform: translateX(0px);
+                /*width: 40px;*/
+            }
+
+            100% {
+                transform: translateX(6px);
+                /*width: 100px;*/
+            }
+        }
+
+        /*@keyframes logoLineMove1 {
+            0% {
+                transform: translateX(0px) translateY(0);
+                width: 40px;
+            }
+
+            100% {
+                transform: translateX(50px);
+                width: 150px;
+                height: 50px;
+            }
+        }
+
+        @keyframes logoLineMove2 {
+            0% {
+                transform: translateX(0px) translateY(0);
+                width: 40px;
+            }
+
+            100% {
+                transform: translateX(50px) translateY(25px);
+                width: 150px;
+                height: 50px;
+            }
+        }
+
+        @keyframes logoLineMove3 {
+            0% {
+                transform: translateX(0px) translateY(0);
+                width: 40px;
+            }
+
+            100% {
+                transform: translateX(50px) translateY(50px);
+                width: 150px;
+                height: 50px;
+            }
+        }*/
+
+        @keyframes logoLineMove1 {
+            0% {
+                transform: translateX(0px) translateY(0);
+                width: 40px;
+            }
+
+            100% {
+                transform: translateX(50px);
+                width: 150px;
+                /*height: 50px;*/
+            }
+        }
+
+        @keyframes logoLineMove2 {
+            0% {
+                transform: translateX(0px) translateY(0);
+                width: 40px;
+            }
+
+            100% {
+                transform: translateX(100px) translateY(0px);
+                width: 150px;
+                /*height: 50px;*/
+            }
+        }
+
+        @keyframes logoLineMove3 {
+            0% {
+                transform: translateX(0px) translateY(0);
+                width: 40px;
+            }
+
+            100% {
+                transform: translateX(150px) translateY(00px);
+                width: 150px;
+                /*height: 50px;*/
+            }
+        }

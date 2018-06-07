@@ -9,7 +9,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{CD454115-966A-42C3-AF6F-62100002303A}</ProjectGuid>
+    <ProjectGuid>{9A8538EB-A6AA-4DCB-AD25-5E5D0B3DAA75}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -304,13 +304,11 @@
     <Content Include="Scripts\sammy-0.7.4.js" />
     <Content Include="Scripts\sammy-0.7.4.min.js" />
     <Content Include="Views\Home\icons\logo1.gif" />
-    <Content Include="Views\Home\sample3.css" />
-    <Content Include="Views\Home\sample3.html" />
+    <Content Include="Views\Home\MainPage2.css" />
+    <Content Include="Views\Home\MainPage.css" />
     <Content Include="Views\Home\sample.css" />
-    <Content Include="Views\Home\sample.html" />
     <Content Include="Views\Home\sample.js" />
     <Content Include="Views\Home\sample2.css" />
-    <Content Include="Views\Home\sample2.html" />
     <Content Include="Views\Home\sample2.js" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Account\ConfirmEmail.cshtml" />
